@@ -8,7 +8,7 @@ import { isAuthenticated } from './services/auth'
 import SignIn from './pages/SignIn'
 import SignOut from './pages/SignOut'
 import SignUp from './pages/SignUp'
-import AccessDined from './pages/AccessDined'
+import AccessDined from './pages/AccessDenied'
 import App from './pages/App'
 import User from './pages/User'
 import Role from './pages/Role'
@@ -54,7 +54,7 @@ const Routes = () => (
         <PrivateRoute path="/user" component={User} />
         <PrivateRoute path="/role" component={Role} />
         <PrivateRoute path="/category" component={Category} />
-        <PrivateRoute path="/access-dined" component={AccessDined} />
+        <PrivateRoute path="/access-denied" component={AccessDined} />
         <PrivateRoute path="/app" component={App} />
         <Redirect from='*' to='/' />
       </Switch>
