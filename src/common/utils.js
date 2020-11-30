@@ -44,7 +44,7 @@ export const catchMessage = function(err,props){
     if(err.response
     && err.response.status 
     && err.response.status === 403){
-        props.history.push("/access-dined");
+        props.history.push("/access-denied");
     }
     
     toastr.error("Erro",message);
