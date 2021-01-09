@@ -1,5 +1,5 @@
 
-![Preview](http://www.davifelipe.com.br/react-material-ui-login.gif)
+![Preview](https://raw.githubusercontent.com/davifelipems/react-js-material-ui-template/blob/blob/react-material-ui-login.gif)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
